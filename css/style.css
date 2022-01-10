@@ -42,6 +42,15 @@ ul {
   opacity: 0.9;
 }
 
+.dark {
+  color: #fff;
+}
+
+.dark .btn {
+  background: #f4f4f4;
+  color: #333;
+}
+
 /* NAV */
 .main-nav {
   display: flex;
@@ -143,6 +152,98 @@ ul {
   padding: 50px 0 0 30px;
 }
 
-.secondary-showcase p {
+.secondary-showcase p,
+.carbon p {
   margin: 10px 0 20px;
+}
+
+/* CARBON */
+
+.carbon {
+  height: 350px;
+  width: 100%;
+  background: url(../images/carbon.jpg) no-repeat center center/cover;
+}
+
+.carbon .content {
+  width: 55%;
+  padding: 100px 0 0 30px;
+}
+
+/* SOCIALS */
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px 0 30px;
+}
+
+.socials a:hover i {
+  scale: 0.95;
+  color: #0067b8;
+}
+
+.socials * {
+  margin-right: 10px;
+}
+
+/* SITEMAP */
+.sitemap {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 35px 0;
+}
+
+.sitemap-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sitemap li {
+  line-height: 2.5;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer div i {
+  margin-right: 10px;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer li {
+  margin-right: 30px;
+  margin-bottom: 20px;
 }
